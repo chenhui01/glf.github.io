@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9668420",
+      "name": "banner箭头",
+      "font_class": "bannerjiantou",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}

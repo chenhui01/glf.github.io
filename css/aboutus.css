@@ -1,0 +1,211 @@
+/* 公共样式 */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .z_index2{z-index: 1;}
+  .fl{
+      float: left;
+  }
+  .fr{
+      float: right;
+  }
+  .a_no_decoration{
+      text-decoration: none;
+  }
+  body{background: #f5f5f5;}
+  /* 代码优化 */
+
+  /* 导航区 */
+  #top_box{
+      width:100%;
+      height: 80px;
+      background:#00458e;
+  }
+  .top{
+      margin: 0 auto;
+      width: 1920px;
+      height: 80px;
+      display: grid;
+      grid-template-columns:636px 797px 487px;
+  }
+  .logo{
+      margin-left: 361px;
+      width: 204px;
+      height: 80px;
+  }
+  .nav{
+      width: 797px;
+      height: 80px;
+  }
+  .nav a{
+      font-family: "思源黑体";
+      font-size: 24px;
+      line-height: 80px;
+      width: 113.8px;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      float: left;
+      transition: 0.8s;
+  }
+  .nav a:hover{
+      background-color:#fff;
+      font-family: "思源黑体";
+      color: #00458e;
+  }
+  .search{
+      margin: 30px 0 0 41px;
+      width: 85px;
+      height: 18px;
+      position: relative;
+  }
+  .search input{
+   width: 55px;
+   height: 17px;
+   display: block;
+   color: #fff;
+   border: none;
+   font-family: "思源黑体";
+   font-size: 12px;
+   background-color: rgba(255, 255, 255, 0) ;
+   margin: 0 0 4px 3px;
+  }
+  .search .rectangle{
+      width: 83px;
+      height: 1px;
+      display: block;
+      background-color:rgba(255, 255, 255, 0.24) ;
+  }
+  .search_ioc{
+      width: 9px;
+      height: 13px;
+      position: absolute;
+      left: 61px;
+      top: -2px;
+  }
+  /* 脚部 */
+  #foot_box{
+      width: 100%;
+      height: 334px;
+      background-image: linear-gradient(#045dd0, #003e8e);
+  }
+  .foot_main{
+      margin: 0 auto;
+      width: 1200px;
+      height: 334px;
+      display: grid;
+      grid-template-columns: 766px 1fr;
+      grid-template-rows: 258px 76px;
+  }
+  .foot_main1{
+      width: 766px;
+      height: 258px;
+      display: grid;
+      grid-template-columns:repeat(5,145px) 1fr;
+      overflow: hidden;
+  }
+  .foot_main1_1,
+  .foot_main1_2,
+  .foot_main1_3,
+  .foot_main1_4,
+  .foot_main1_5
+  {
+      height: 258px;
+  }
+  .foot_main1_1 h2,
+  .foot_main1_2 h2,
+  .foot_main1_3 h2,
+  .foot_main1_4 h2,
+  .foot_main1_5 h2
+  {
+      margin-top:25px;
+      color:#fff;
+      font-family: "微软雅黑";
+      font-size: 22px;
+  }
+  .foot_main1_1 a,
+  .foot_main1_2 a,
+  .foot_main1_3 a,
+  .foot_main1_4 a,
+  .foot_main1_5 a
+  {
+      color:#edeff4;
+      text-decoration: none;
+      font-family: "微软雅黑";
+      font-size: 18px;
+      line-height: 29px;
+  }
+  .foot_main1_1 a:hover,
+  .foot_main1_2 a:hover,
+  .foot_main1_3 a:hover,
+  .foot_main1_4 a:hover,
+  .foot_main1_5 a:hover
+  {
+      color:#00f;
+  }
+  .foot_main1_6{
+      width: 100%;
+      height: 258px;
+      align-items: center;
+      position: relative;
+  }
+  .foot_main1_6 .foot_main1_rectangle{
+      width: 1px;
+      height: 145px;
+      background: #fff;
+      position: absolute;
+      right: 0;
+      margin-top: 57px;
+  }
+  .foot_main2{
+      position: relative;
+  }
+  .foot_main2 .two_cote1,
+  .two_cote2{
+      width: 93px;
+      height: 125px;
+  }
+  .foot_main2 .two_cote1{
+      position: absolute;
+      margin: 80px 0 0 105px;
+  }.foot_main2 .two_cote2{
+      position: absolute;
+      margin: 80px 0 0 234px;
+  }
+  .foot_main2 .two_cote1 span,
+  .two_cote2 span{
+      font-family: "微软雅黑";
+      font-size: 18px;
+      color: #fff;
+      display: block;
+      width: 92px;
+      text-align: center;
+      margin-top: 8px;
+  }
+  .foot_main3{
+      grid-column: 1 / 3;
+  }
+  .foot_main3 .foot_main3_rectangle{
+      width: 1200px;
+      height: 1px;
+      background: #fff;
+  }
+  .foot_main3 p{
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      margin-top: 25px;
+  }
+  .foot_main3 p span:nth-child(1){
+      font-family: "思源黑体";
+      font-size: 19px;
+      color: #fff;
+  }
+  .foot_main3 p span:nth-child(2){
+      font-family: "思源黑体";
+      font-size: 19px;
+      color: #fff;
+      margin-left: 80px;
+  }

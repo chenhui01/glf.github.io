@@ -1,0 +1,528 @@
+/* 公共样式 */
+*{
+  margin: 0;
+  padding: 0;
+}
+.z_index2{
+    z-index: 1;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.a_no_decoration{
+    text-decoration: none;
+}
+body{background: #f5f5f5;}
+.triangle{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-top: 23px solid transparent;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 23px solid #fff;
+    position: absolute;
+    top: 254px;
+    left: 177px;
+}
+/* 图标 */
+.iconfont{position: fixed;  top: 50%;right: 8%;z-index: 10;color: #045dd0;}
+/* 代码优化 */
+.aboutus_main .main_top h2 ,
+.products_text h2{
+    font-family: "思源黑体";
+    font-size: 32px;
+    color:#333333;
+    text-align: center;
+    line-height:176px;
+}
+.products_main .jiu1_text,
+.jiu3_text,
+.jiu2_text{
+    width: 354px;
+    overflow: hidden;
+    padding: 63px 0 0 46px ;
+    background: #fff;
+}
+.products_main .jiu1_text h2,
+.jiu3_text h2,
+.jiu2_text h2{
+    font-family: "思源黑体";
+    font-size: 28px;
+    color: #333;
+}
+.products_main .jiu1_text p,
+.jiu3_text p,
+.jiu2_text p{
+    margin-top: 29px;
+    font-family: "思源黑体";
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    position: absolute;
+}
+.products_main .jiu1_text .red_rectangle,
+.jiu3_text .red_rectangle,
+.jiu2_text .red_rectangle{
+    width: 48px;
+    height: 1px;
+    background: #d00;
+    position: relative;
+    top: 130px;
+}
+.products_main .jiu1_text span,
+.jiu3_text span,
+.jiu2_text span{
+    margin: 120px 0 0 55px;
+    width: 66px;
+    display: block;
+    font-family: "思源黑体";
+    font-size: 13.7px;
+    color: #d00;
+}
+/* 导航区 */
+#top_box{
+    width:100%;
+    height: 80px;
+    background:#00458e;
+}
+.top{
+    margin: 0 auto;
+    width: 1920px;
+    height: 80px;
+    display: grid;
+    grid-template-columns:636px 797px 487px;
+}
+.logo{
+    margin-left: 361px;
+    width: 204px;
+    height: 80px;
+}
+.nav{
+    width: 797px;
+    height: 80px;
+}
+.nav a{
+    font-family: "思源黑体";
+    font-size: 24px;
+    line-height: 80px;
+    width: 113.8px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+    transition: 0.8s;
+}
+.nav a:hover{
+    background-color:#fff;
+    font-family: "思源黑体";
+    color: #00458e;
+}
+.search{
+    margin: 30px 0 0 41px;
+    width: 85px;
+    height: 18px;
+    position: relative;
+}
+.search input{
+ width: 55px;
+ height: 17px;
+ display: block;
+ color: #fff;
+ border: none;
+ font-family: "思源黑体";
+ font-size: 12px;
+ background-color: rgba(255, 255, 255, 0) ;
+ margin: 0 0 4px 3px;
+}
+.search .rectangle{
+    width: 83px;
+    height: 1px;
+    display: block;
+    background-color:rgba(255, 255, 255, 0.24) ;
+}
+.search_ioc{
+    width: 9px;
+    height: 13px;
+    position: absolute;
+    left: 61px;
+    top: -2px;
+}
+/* banner区 */
+#banner_box{
+            width: 1920px;
+            height: 626px;
+            margin: 0 auto;
+            position: relative;
+}
+#banner{
+    width: 1920px;
+    height: 626px;
+    margin: 0 auto; 
+}
+#banner .banner{
+    display: block;
+    width: 100%;
+    height: 626px;
+    position: absolute;
+    transition: .5s;
+}
+#dot1{
+    position: absolute;
+    left: 360px;
+    bottom:300px;
+    width: 50px;
+    height: 100px;
+    background-color:#fff;
+    opacity: .8;
+    z-index: 2;
+}
+#dot2{
+    position: absolute;
+    right: 360px;
+    bottom:300px;
+    width: 50px;
+    height: 100px;
+    background-color:#fff;
+    opacity: .8;
+    z-index: 2;
+}
+.point{
+    position: absolute;
+    bottom: 30px;
+    right: 380px;
+    width: 100px;
+    height: 10px;
+    z-index: 2;
+}
+.point1{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px;
+    border-radius: 50%;
+    margin-left: 8px;
+    float: left;                                                                                                                                                                                                                                                                       
+}
+.point1-hover{
+    background: #999;
+}
+/* 公司简介 */
+#aboutus_box{
+    margin: 0 auto;
+    width:100%;
+    height: 536px;
+    background: #f2eff3;
+}
+.aboutus_bg{
+    margin: 0 auto;
+    width: 1920px;
+    height: 536px;
+    background: url(../image/aboutus_bg.jpg) no-repeat 0 0;
+}
+.aboutus_main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 536px;
+    display: grid;
+    grid-template-rows:176px 1fr;
+}
+
+.aboutus_main .main_bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutus_main .main_bottom .text{
+    width: 462px;
+    height: 250px;
+    margin-left: 97px;
+    overflow:hidden;
+}
+.aboutus_main .main_bottom .text p{
+    text-indent: 2em;
+    font-size: 12px;
+    color: #666666;
+    font-family: "宋体";
+    line-height: 19.98px;
+}
+.aboutus_main .main_bottom .video{
+    width: 390px;
+    height: 274px;
+    margin-left: 105px;
+    background: url(../image/jiu.jpg);
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+.aboutus_main .main_bottom .video .video_img1{
+    margin-top: 224px;
+    background: rgba(228, 0, 0, 0.75);
+    transition: 0.3s;
+}
+.aboutus_main .main_bottom .video .video_img1:hover{
+    background: rgba(0, 120, 247, 0.75); 
+}
+
+.jiuvideo{display: none;position: fixed;left: 30%;top: 30%;font-size: 0; z-index: 10;}
+.jiuvideo .btn_hidden{width: 30px;height: 30px;position: absolute;left: 0;top: -40px;background: url(../image/x.png);}
+
+/* 了解我们 */
+#aosika_box{
+    margin: 0 auto;
+    width: 1920px;
+    height: 449px;
+    background-attachment: fixed;
+    background-image: url(../image/aosika_bg.jpg) ;
+    background-position: center;
+    background-repeat: none;
+}
+.aosika_main{
+             margin: 0 auto;
+             width: 1200px;
+             height:449px ;
+            }
+.aosika_main .main_text{
+     width: 441px;
+     height: 170px;
+}
+.aosika_main .main_text p{
+    font-family: "隶书";
+    font-size: 49px;
+    color: #fff;
+}
+.aosika_main .main_text a{
+    display: block;
+    width: 157px;
+    height: 41px;
+    background-color: #00458e;
+    text-decoration: none;
+    color: #fff;
+    line-height: 41px;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    padding-left: 17px;
+    position: absolute;
+    margin-top: 30px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    
+}
+.aosika_main .main_text a:hover {
+    background-color: #e20a07;
+}
+.aosika_main .main_text {
+    padding-top: 110px;
+}
+.aosika_main .main_text p {
+    line-height: 53px;
+    letter-spacing: -98px;
+    padding-left: 391px;
+}
+.aosika_main .main_text img{
+    position: relative;
+    top: 43px;
+    left: 127px;
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+/* 产品中心 */
+#products{
+    margin: 0 auto;
+    width: 1200px;
+    height: 861px;
+    display: grid;
+    grid-template-rows: 176px 600px 85px;
+}
+.products_main{
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+}
+.products_main .jiu2_img{
+    width: 400px;
+    height: 300px;
+    background-color: #b9e2fe;
+    position: relative;
+}
+.products_main .jiu2_img img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: .3s;
+}
+.products_main .jiu2_img img:hover{
+    transform: scale(1.3);
+
+}
+.products_main .jiu1_img{
+    width: 400px;
+    height: 300px;
+    background-color: #9e4508;
+    position: relative;
+}
+.products_main .jiu1_img img
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: .3s;
+}
+.products_main .jiu1_img img:hover{
+    transform: scale(1.3);
+}
+.bottom_triangle{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-top: 23px solid #fff;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 177px;
+}
+.products_main .jiu3_img img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: .3s;
+}
+.products_main .jiu3_img img:hover{
+    transform: scale(1.3);
+}
+.products_main .jiu3_img{
+    width: 400px;
+    height: 300px;
+    background-color: #e6d356;
+    position: relative;
+}
+/* 脚部 */
+#foot_box{
+    width: 100%;
+    height: 334px;
+    background-image: linear-gradient(#045dd0, #003e8e);
+}
+.foot_main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 334px;
+    display: grid;
+    grid-template-columns: 766px 1fr;
+    grid-template-rows: 258px 76px;
+}
+.foot_main1{
+    width: 766px;
+    height: 258px;
+    display: grid;
+    grid-template-columns:repeat(5,145px) 1fr;
+    overflow: hidden;
+}
+.foot_main1_1,
+.foot_main1_2,
+.foot_main1_3,
+.foot_main1_4,
+.foot_main1_5
+{
+    height: 258px;
+}
+.foot_main1_1 h2,
+.foot_main1_2 h2,
+.foot_main1_3 h2,
+.foot_main1_4 h2,
+.foot_main1_5 h2
+{
+    margin-top:25px;
+    color:#fff;
+    font-family: "微软雅黑";
+    font-size: 22px;
+}
+.foot_main1_1 a,
+.foot_main1_2 a,
+.foot_main1_3 a,
+.foot_main1_4 a,
+.foot_main1_5 a
+{
+    color:#edeff4;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 29px;
+}
+.foot_main1_1 a:hover,
+.foot_main1_2 a:hover,
+.foot_main1_3 a:hover,
+.foot_main1_4 a:hover,
+.foot_main1_5 a:hover
+{
+    color:#00f;
+}
+.foot_main1_6{
+    width: 100%;
+    height: 258px;
+    align-items: center;
+    position: relative;
+}
+.foot_main1_6 .foot_main1_rectangle{
+    width: 1px;
+    height: 145px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    margin-top: 57px;
+}
+.foot_main2{
+    position: relative;
+}
+.foot_main2 .two_cote1,
+.two_cote2{
+    width: 93px;
+    height: 125px;
+}
+.foot_main2 .two_cote1{
+    position: absolute;
+    margin: 80px 0 0 105px;
+}.foot_main2 .two_cote2{
+    position: absolute;
+    margin: 80px 0 0 234px;
+}
+.foot_main2 .two_cote1 span,
+.two_cote2 span{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 92px;
+    text-align: center;
+    margin-top: 8px;
+}
+.foot_main3{
+    grid-column: 1 / 3;
+}
+.foot_main3 .foot_main3_rectangle{
+    width: 1200px;
+    height: 1px;
+    background: #fff;
+}
+.foot_main3 p{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+.foot_main3 p span:nth-child(1){
+    font-family: "思源黑体";
+    font-size: 19px;
+    color: #fff;
+}
+.foot_main3 p span:nth-child(2){
+    font-family: "思源黑体";
+    font-size: 19px;
+    color: #fff;
+    margin-left: 80px;
+}
